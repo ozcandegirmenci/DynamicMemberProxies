@@ -108,7 +108,7 @@ namespace DynamicMemberProxies
         /// </summary>
         /// <param name="type">The type</param>
         /// <returns></returns>
-        /// /// <exception cref="ArgumentNullException">Throws argument null exception when <c>type</c> is null</exception>
+        /// <exception cref="ArgumentNullException">Throws argument null exception when <c>type</c> is null</exception>
         /// <exception cref="ArgumentException">Throws argument exception when there is no constructor</exception>
         public static RuntimeConstructorProxy Create(Type type)
         {
@@ -129,7 +129,7 @@ namespace DynamicMemberProxies
         /// </summary>
         /// <param name="constructor">The constructor info</param>
         /// <returns></returns>
-        /// /// <exception cref="ArgumentNullException">Throws argument null exception when <c>constructor</c> is null</exception>
+        /// <exception cref="ArgumentNullException">Throws argument null exception when <c>constructor</c> is null</exception>
         public static RuntimeConstructorProxy Create(ConstructorInfo constructor)
         {
             if (constructor == null)
